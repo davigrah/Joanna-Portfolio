@@ -1,0 +1,29 @@
+/*  HEADER */
+.header-container {
+  background-color: #93ec40;
+  width: 100vh;
+  height: 100vh;
+}
+.star {
+    position: absolute;
+    width: 3000px;
+    top: -2100px;
+    left: -1200px;
+    fill: #ff4ca7;
+}
+
+.name {
+    position: absolute;
+    width: 1500px;
+    top: 200px;
+}
+.last-name {
+    position: absolute;
+    width: 1500px;
+    top: 190px;
+    left: 200px;
+}
+.name,
+.last-name {
+    fill: #0b07fa;
+}
