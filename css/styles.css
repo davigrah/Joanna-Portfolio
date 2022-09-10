@@ -1,29 +1,94 @@
 /*  HEADER */
+body, html {
+    overflow-x: hidden;
+    height: 100%;
+    
+}
 .header-container {
   background-color: #93ec40;
   width: 100vh;
   height: 100vh;
 }
-.star {
-    position: absolute;
-    width: 3000px;
-    top: -2100px;
-    left: -1200px;
+ .star-top {
+    position: relative;
+    width: 93%;
+    top: -800px;
+    left: -500px;
+    fill: #ff4ca7;
+}
+.star-bottom {
+    position: relative;
+    width: 70%;
+    top: -2500px;
+    right: -300px;
     fill: #ff4ca7;
 }
 
 .name {
-    position: absolute;
-    width: 1500px;
-    top: 200px;
+    position: relative;
+    width: 40%;
+    top: -1300px;
+    
 }
 .last-name {
-    position: absolute;
-    width: 1500px;
-    top: 190px;
-    left: 200px;
+    position: relative;
+    width: 40%;
+    top: -1880px;
+    left: 50px;
 }
 .name,
 .last-name {
     fill: #0b07fa;
 }
+.rounded {
+    position: relative;
+    width: 30%;
+    top: -2625px;
+    left: 310px;
+    fill: #f86906;
+}
+.circle-1,
+.circle-2,
+.circle-3 {
+    position: relative;
+    width: 120px;
+    fill: #f86906;
+}
+.circle-1 {
+    top: -2400px;
+    left: 330px;
+    fill: #f86906;
+}
+.circle-2 {
+    top: -2250px;
+    left: 205px;
+}
+.circle-3 {
+    top: -2100px;
+    left: 85px;
+}
+.agencies {
+    position: relative;
+    width: fit-content;
+    top: -3130px;
+    left: 30px;
+}
+.agencies h3 {
+    color: #0b07fa ;
+    font-size: 50px;
+    height: 35px;
+}
+.last-job {
+    text-decoration: line-through;
+    text-decoration-color: #f86906;
+
+}
+.actual-job {
+ width: fit-content;
+ padding: 15px;
+ border-radius: 50px;
+ display: flex;
+ align-items: center;
+ background-color: #f86906;
+}
+
