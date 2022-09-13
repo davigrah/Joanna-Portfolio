@@ -90,9 +90,10 @@ body, html {
 }
 .star-wrapper {
     height: 10rem;
+    z-index: 3;
 }
 .star-wrapper svg {
-    z-index: 0;
+    z-index: 1;
 }
 .wrap-container {
     height: fit-content;
@@ -106,10 +107,15 @@ body, html {
     font-size: 7rem;
     margin: 1rem;
     color: #f86906;
+    z-index: 2;
 }
 .about-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     position: relative;
-    top: -8rem;
+    top: -9rem;
 }
 .about-container p {
     margin: 1rem;
@@ -122,15 +128,6 @@ body, html {
 img {
     width: 15rem;
     margin: 1rem;
-    border: 2px solid #ff4ca7;
-}
-.profile-photo-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3rem;
-    
 }
 .star-bottom svg {
     width: 26rem;
