@@ -1,7 +1,14 @@
-
- #header, .header-container {
+/* ///////////////////////////////
+///////////// HEADER ///////////// 
+/////////////////////////////////*/
+ 
+body, html {
      background-color: #93ec40;
-     width: 100%;
+     min-width: 100%;
+ }
+#header, .header-container {
+     background-color: #93ec40;
+     max-width: 100%;
      height: 100vh;
   }
  .title {
@@ -42,7 +49,7 @@
     display: flex;
     justify-content: center;
     margin: 1rem;
-
+    z-index: 1;
 }
 .about h3 {
     background-color: #f86906;
@@ -60,9 +67,112 @@
 }
 #star {
     width: 9rem;
+}
+
+/* ///////////////////////////////
+///////////// ABOUT ///////////// 
+/////////////////////////////////*/
+
+#about {
+    display: flex;
+    flex-direction: column;
+    background-color: #0b07fa;
+}
+/* .about-container {
+    display: flex;
+    background-color: #0b07fa;
+} */
+.star-top {
+    position: relative;
+    top: -1px;
+    width: 18rem;
+    transform: rotate(180deg);
+}
+.star-wrapper {
+    height: 10rem;
+}
+.star-wrapper svg {
+    z-index: 0;
+}
+.wrap-container {
+    height: fit-content;
+}
+/* .wrap-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+} */
+.about-container h1 {
+    font-size: 7rem;
+    margin: 1rem;
+    color: #f86906;
+}
+.about-title {
+    position: relative;
+    top: -8rem;
+}
+.about-container p {
+    margin: 1rem;
+    color: #f86906;
+}
+/* .profile-photo {
+    position: relative;
+    top: -7rem;
+} */
+img {
+    width: 15rem;
+    margin: 1rem;
+    border: 2px solid #ff4ca7;
+}
+.profile-photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
     
 }
- 
+.star-bottom svg {
+    width: 26rem;
+}
+
+/* //////////////////////////////////////
+///////////// FOOTER ///////////// 
+/////////////////////////////////////////*/
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b07fa;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #0b07fa;
+    margin: -1rem;
+    width: 100%;
+}
+.footer-container svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #0b07fa;
+}
+.instagram,
+.linkedin,
+.email,
+.telefone {
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 100px;
+    background-color: #ff4ca7;
+}
+
+
+
+/* //////////////////////////////////////
+///////////// MEDIA QUERIES ///////////// 
+/////////////////////////////////////////*/
+
 @media screen and (min-width: 320px) {
     html{
         font-size: 14px;
