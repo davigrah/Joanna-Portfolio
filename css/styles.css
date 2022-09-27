@@ -3,7 +3,7 @@
 /////////////////////////////////*/
  
 body, html {
-     background-color: #93ec40;
+     /* background-color: #93ec40; */
      min-width: 100%;
  }
 #header, .header-container {
@@ -69,19 +69,65 @@ body, html {
     width: 9rem;
 }
 
+/* //////////////////////////////////////
+///////////// PROJECTS ///////////// 
+/////////////////////////////////////////*/
+
+#project-1,
+#project-2,
+#project-3,
+#project-4,
+#project-5{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#project-1 {
+    /* background-color: #f86906; */
+    background-image: url('../img/background/minas-gerais-festival.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+#project-2 {
+    background-color: red;
+}
+#project-3 {
+    background-color: yellow;
+}
+#project-4 {
+    background-color: purple;
+}
+#project-5 {
+    background-color: pink;
+}
+.project-title h2 {
+    font-size: 3rem;
+    background-color: #0b07fa;
+    color: white;
+    padding: 0.7rem 1.3rem;
+    border-radius: 50px;
+}
+
+
+
+
 /* ///////////////////////////////
 ///////////// ABOUT ///////////// 
 /////////////////////////////////*/
 
 #about {
     display: flex;
+    min-height: 90vh;
     flex-direction: column;
-    background-color: #0b07fa;
 }
-/* .about-container {
+.about-container {
     display: flex;
     background-color: #0b07fa;
-} */
+}
 .star-top {
     position: relative;
     top: -1px;
@@ -96,18 +142,19 @@ body, html {
     z-index: 1;
 }
 .wrap-container {
-    height: fit-content;
+    min-height: 90vh;
 }
 /* .wrap-container {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
 } */
+
 .about-container h1 {
     font-size: 7rem;
     margin: 1rem;
     color: #f86906;
-    z-index: 2;
+    /* z-index: 2; */
 }
 .about-title {
     display: flex;
@@ -141,6 +188,7 @@ img {
     align-items: center;
     justify-content: center;
     background-color: #0b07fa;
+    min-height: 10vh;
 }
 .footer-container {
     display: flex;
@@ -198,3 +246,6 @@ img {
         font-size: 50px;
     }
 }
+
+
+
