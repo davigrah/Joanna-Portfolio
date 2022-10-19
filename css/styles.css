@@ -77,7 +77,14 @@ body, html {
 #project-2,
 #project-3,
 #project-4,
-#project-5{
+#project-5,
+#project-6,
+#project-7,
+#project-8,
+#project-9,
+#project-10,
+#project-11,
+#project-12 {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -85,7 +92,7 @@ body, html {
 }
 #project-1 {
     /* background-color: #f86906; */
-    background-image: url('../img/background/minas-gerais-festival.jpg');
+    background-image: url('../projects/VesteAsBrabas/capa.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -93,25 +100,102 @@ body, html {
    
 }
 #project-2 {
-    background-color: red;
+    
+    background-image: url('../projects/Dove/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #project-3 {
-    background-color: yellow;
+    background-image: url('../projects/PulaPra50/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #project-4 {
-    background-color: purple;
+    background-image: url('../projects/Loccitane/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #project-5 {
-    background-color: pink;
+    background-image: url('../projects/Airbnb/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+#project-6 {
+    background-image: url('../projects/IVOC/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#project-7 {
+    background-image: url('../projects/Algoritmo/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#project-8 {
+    background-image: url('../projects/AmandaMitz/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#project-9 {
+    background-image: url('../projects/Tarsila/capa.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#project-10 {
+    background-image: url('../projects/HorizonteCinza/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#project-11 {
+    background-image: url('../projects/FestivalMinasGerais/capa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#project-12 {
+    background-image: url('../projects/Artefato/capa.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .project-title h2 {
     font-size: 3rem;
     background-color: #0b07fa;
     color: white;
-    padding: 0.7rem 1.3rem;
+    padding: 1rem;
     border-radius: 50px;
 }
 
+span.plus {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: #0b07fa;
+    border-radius: 50%;
+}
 
 
 
@@ -206,6 +290,8 @@ img {
 .linkedin,
 .email,
 .telefone {
+    height: 2rem;
+    width: 2rem;
     padding: 0.7rem;
     margin: 0.5rem;
     border-radius: 100px;
