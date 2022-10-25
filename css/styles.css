@@ -6,6 +6,9 @@ body, html {
      /* background-color: #93ec40; */
      min-width: 100%;
  }
+ a {
+     text-decoration: none;
+ }
 #header, .header-container {
      background-color: #93ec40;
      max-width: 100%;
@@ -309,6 +312,37 @@ img {
         font-size: 14px;
     } 
 }
+@media screen and (max-width: 834px) {
+    #project-3 {
+        background-image: url('../projects/PulaPra50/vertical.png');
+    }
+    #project-4 {
+        background-image: url('../projects/Loccitane/vertical.JPG');
+    }
+    #project-6 {
+        background-image: url('../projects/IVOC/vertical.png');
+    }
+    #project-7 {
+        background-image: url('../projects/Algoritmo/vertical.png');
+    }
+    #project-8 {
+        background-image: url('../projects/AmandaMitz/vertical.png');
+    }
+    #project-9 {
+        background-image: url('../projects/Tarsila/vertical.png');
+    }
+    #project-10 {
+        background-image: url('../projects/HorizonteCinza/vertical.png');
+    }
+    #project-11 {
+        background-image: url('../projects/FestivalMinasGerais/vertical.png');
+    }
+    #project-12 {
+        background-image: url('../projects/Artefato/vertical.png');
+    }
+
+}
+
 @media screen and (min-width: 880px) {
     html {
         font-size: 20px;
@@ -324,14 +358,11 @@ img {
 }
 @media screen and (min-width: 1300px) {
     html {
-        font-size: 23px;
+        font-size: 20px;
     }
 }
-@media screen and (min-width: 2000px) {
-    html {
-        font-size: 50px;
-    }
-}
+
+
 
 
 
