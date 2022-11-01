@@ -102,4 +102,21 @@ img {
         flex-direction: row;
         margin: 2rem;
     }
+    .container {
+        display: flex;
+        margin: 1rem;
+    }
+    .img-vertical {
+        width: 110rem;
+    }
+    .img-full {
+        width: 100rem;
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container {
+        margin-top: 5rem;
+    }
 }
