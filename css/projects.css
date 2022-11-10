@@ -1,0 +1,132 @@
+body {
+    min-width: 100%;
+    max-width: 100vh;
+    background-color: #0b07fa;
+}
+
+.return {
+    margin: 1rem 1rem 0 1rem;
+}
+.header {
+    min-height: 100vh;
+}
+.title {
+    padding: 0rem 2rem 3rem;
+}
+.title h2 {
+    margin: 0px;
+    color: #ff4ca7;
+    font-size: 3rem;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    justify-content: center;
+    min-height: 90vh;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+}
+.size-adjust {
+    width: 1875px;
+}
+.header-adjust {
+    width: 3200px;
+}
+.text {
+    margin: 1rem;
+    padding: 1rem  3rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #f86906;
+}
+
+#photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+img {
+    max-width: 95%;
+    margin: 1rem;
+}
+.text-2 {
+    padding: 0rem 5rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #f86906;
+}
+.img-vertical {
+  max-height: 100vh;
+}
+
+/* //////////////////////////////////////
+///////////// FOOTER ///////////// 
+/////////////////////////////////////////*/
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b07fa;
+    min-height: 10vh;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #0b07fa;
+    margin: -1rem;
+    width: 100%;
+}
+.footer-container svg {
+    width: 2rem;
+    height: 2rem;
+    fill: #0b07fa;
+}
+.instagram,
+.linkedin,
+.email,
+.telefone {
+    height: 2rem;
+    width: 2rem;
+    padding: 0.7rem;
+    margin: 0.5rem;
+    border-radius: 100px;
+    background-color: #ff4ca7;
+}
+
+@media screen and (min-width: 1030px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin: 2rem;
+    }
+    .header-adjust {
+        margin: 0px;
+    }
+    .container {
+        display: flex;
+        margin: 1rem;
+    }
+    .img-vertical {
+        width: 110rem;
+    }
+    .img-full {
+        min-width: 87rem;
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container {
+        margin-top: 5rem;
+    }
+}
