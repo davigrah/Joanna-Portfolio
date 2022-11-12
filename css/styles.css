@@ -153,33 +153,27 @@ body, html {
     background-size: cover;
 }
 #project-9 {
-    background-image: url('../projects/Tarsila/capa.PNG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-#project-10 {
     background-image: url('../projects/HorizonteCinza/capa.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-#project-11 {
+#project-10 {
     background-image: url('../projects/FestivalMinasGerais/capa.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-#project-12 {
+#project-11 {
     background-image: url('../projects/Artefato/capa.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
 
 .project-title h2 {
     font-size: 3rem;
