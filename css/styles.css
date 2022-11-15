@@ -253,10 +253,10 @@ span.plus {
     position: relative;
     top: -7rem;
 } */
-/* img {
+img {
     width: 15rem;
     margin: 1rem;
-} */
+}
 .star-bottom svg {
     width: 26rem;
 }
@@ -306,7 +306,7 @@ span.plus {
         font-size: 14px;
     } 
 }
-/* @media screen and (max-width: 834px) {
+@media screen and (max-width: 834px) {
     #project-3 {
         background-image: url('../projects/PulaPra50/vertical.png');
     }
@@ -335,7 +335,7 @@ span.plus {
         background-image: url('../projects/Artefato/vertical.png');
     }
 
-} */
+}
 
 @media screen and (min-width: 880px) {
     html {
