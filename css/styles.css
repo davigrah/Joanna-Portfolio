@@ -306,33 +306,69 @@ img {
         font-size: 14px;
     } 
 }
-@media screen and (max-width: 808px) {
+@media screen and (max-width: 834px) {
     #project-3 {
         background-image: url('../projects/PulaPra50/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-4 {
         background-image: url('../projects/Loccitane/vertical.JPG');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-6 {
         background-image: url('../projects/IVOC/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-7 {
         background-image: url('../projects/Algoritmo/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-8 {
         background-image: url('../projects/AmandaMitz/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-9 {
         background-image: url('../projects/Tarsila/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-10 {
         background-image: url('../projects/HorizonteCinza/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-11 {
         background-image: url('../projects/FestivalMinasGerais/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
     #project-12 {
         background-image: url('../projects/Artefato/vertical.png');
+        background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     }
 
 }
