@@ -306,11 +306,7 @@ img {
         font-size: 14px;
     } 
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
+@media screen and (max-width: 834px) {
     #project-3 {
         background-image: url('../projects/PulaPra50/verticall.png');
     }
