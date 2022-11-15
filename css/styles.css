@@ -309,15 +309,12 @@ img {
 @media screen and (max-width: 834px) {
     #project-3 {
         background-image: url('../projects/PulaPra50/vertical.png');
-        background-size: contain;
     }
     #project-4 {
         background-image: url('../projects/Loccitane/vertical.JPG');
-        background-size: contain;
     }
     #project-6 {
         background-image: url('../projects/IVOC/vertical.png');
-        background-size: contain;
     }
     #project-7 {
         background-image: url('../projects/Algoritmo/vertical.png');
