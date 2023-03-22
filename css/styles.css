@@ -94,16 +94,6 @@ body, html {
     justify-content: center;
     align-items: center;
 }
-/* #project-1 {
-    /* background-color: #f86906; */
-    background-image: url('../projects/VesteAsBrabas/capa.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-   
-} */
 
 img {
     max-width: 100%;
@@ -218,7 +208,7 @@ span.plus {
     min-height: 90vh;
     flex-direction: column;
 }
-.about-button {
+.about {
     z-index: 3;
 }
 
@@ -329,7 +319,8 @@ span.plus {
     .about-container p {
         margin: 3rem;
         font-size: 1.5rem;
-   
+}
+
 }
 @media screen and (max-width: 834px) {
     #project-3 {
@@ -377,6 +368,23 @@ span.plus {
         font-size: 20px;
     }
 }
+
+@media (pointer: coarse) { 
+    #project-1,
+    #project-2,
+    #project-3,
+    #project-4,
+    #project-5,
+    #project-6,
+    #project-7,
+    #project-8,
+    #project-9,
+    #project-10,
+    #project-11,
+    #project-12 {
+        background-attachment: scroll;
+    }
+ }
 
 
 
