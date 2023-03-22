@@ -4,8 +4,13 @@ body {
     background-color: #0b07fa;
 }
 
+
+
 .return {
     margin: 1rem 1rem 0 1rem;
+}
+.return svg:hover {
+    fill: #f86906;
 }
 .header {
     min-height: 100vh;
@@ -113,6 +118,18 @@ img {
     margin: 0.5rem;
     border-radius: 100px;
     background-color: #ff4ca7;
+}
+.instagram:hover,
+.instagram svg:hover,
+.linkedin:hover,
+.linkedin svg:hover,
+.email:hover,
+.email svg:hover,
+.telefone:hover,
+.telefone svg:hover {
+    background-color: #0b07fa;
+    fill: #ff4ca7;
+    
 }
 
 @media screen and (min-width: 700px) {

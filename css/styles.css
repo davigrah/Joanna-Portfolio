@@ -1,7 +1,9 @@
 /* ///////////////////////////////
 ///////////// HEADER ///////////// 
 /////////////////////////////////*/
- 
+ html {
+    scroll-behavior: smooth;
+ }
 body, html {
      /* background-color: #93ec40; */
      min-width: 100%;
@@ -72,7 +74,13 @@ body, html {
 #star {
     width: 9rem;
 }
-
+.about-button {
+    z-index: 3;
+}
+.about-button h3:hover {
+    background-color: #0b07fa;
+    color:#f86906;
+}
 /* //////////////////////////////////////
 ///////////// PROJECTS ///////////// 
 /////////////////////////////////////////*/
@@ -187,7 +195,7 @@ img {
 }
 
 span.plus {
-    color: white;
+    color:#f86906;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,6 +203,10 @@ span.plus {
     width: 3rem;
     background-color: #0b07fa;
     border-radius: 50%;
+}
+span.plus:hover {
+    color: #0b07fa;
+    background-color: #f86906;
 }
 
 
@@ -207,9 +219,6 @@ span.plus {
     display: flex;
     min-height: 90vh;
     flex-direction: column;
-}
-.about {
-    z-index: 3;
 }
 
 .about-container {
@@ -242,7 +251,7 @@ span.plus {
     font-size: 7rem;
     margin: 1rem;
     color: #f86906;
-    /* z-index: 2; */
+    z-index: 2;
 }
 .about-title {
     display: flex;
@@ -256,14 +265,6 @@ span.plus {
     margin: 3rem 10rem 0.5rem 10rem;
     color: #f86906;
 }
-/* .profile-photo {
-    position: relative;
-    top: -7rem;
-} */
-/* img {
-    width: 15rem;
-    margin: 1rem;
-} */
 .star-bottom svg {
     width: 26rem;
 }
@@ -301,6 +302,18 @@ span.plus {
     margin: 0.5rem;
     border-radius: 100px;
     background-color: #ff4ca7;
+}
+.instagram:hover,
+.instagram svg:hover,
+.linkedin:hover,
+.linkedin svg:hover,
+.email:hover,
+.email svg:hover,
+.telefone:hover,
+.telefone svg:hover {
+    background-color: #0b07fa;
+    fill: #ff4ca7;
+    
 }
 
 
