@@ -733,6 +733,7 @@
   height: 196px;
   min-height: auto;
   min-width: 100vw;
+  cursor: pointer;
   background-color: #ff4ca7;
   justify-content: space-between;
   align-items: center;
@@ -740,11 +741,15 @@
   overflow: hidden;
 }
 
-.lottie-animation {
-  height: 200px;
+.arrow-pink {
   max-height: none;
   max-width: none;
-  min-height: 0;
+  display: none;
+  position: relative;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
 }
 
 .heading-8 {
@@ -792,9 +797,11 @@
 }
 
 .link-block-2 {
+  z-index: 999;
   max-height: 200px;
   min-height: 200px;
   min-width: 100%;
+  cursor: pointer;
   position: absolute;
 }
 
@@ -1088,6 +1095,13 @@
   min-width: 100vw;
   margin: 0;
   padding: 42px;
+}
+
+.arrow-green {
+  z-index: 9;
+  min-height: 0;
+  object-fit: fill;
+  position: relative;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1692,7 +1706,7 @@
     height: 120px;
   }
 
-  .lottie-animation {
+  .arrow-pink {
     height: 10vh;
   }
 
@@ -1899,7 +1913,7 @@
     min-width: 100%;
   }
 
-  .next-project, .lottie-animation {
+  .next-project, .arrow-pink {
     height: 85px;
   }
 
@@ -2260,7 +2274,7 @@
     padding: 16px;
   }
 
-  .next-project, .lottie-animation {
+  .next-project, .arrow-pink {
     height: 50px;
   }
 
