@@ -798,7 +798,7 @@
   font-weight: 400;
 }
 
-.link-block-2 {
+.next-project-link {
   z-index: 999;
   max-height: 200px;
   min-height: 200px;
@@ -1748,7 +1748,7 @@
     min-height: 0;
   }
 
-  .link-block-2 {
+  .next-project-link {
     height: 120px;
     max-height: 0;
     min-height: 120px;
@@ -1951,7 +1951,7 @@
     overflow: visible;
   }
 
-  .link-block-2 {
+  .next-project-link {
     height: 85px;
     min-height: 85px;
   }
@@ -2306,7 +2306,7 @@
     font-size: 13px;
   }
 
-  .link-block-2 {
+  .next-project-link {
     height: 0;
     min-height: 50px;
   }
