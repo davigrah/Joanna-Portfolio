@@ -102,7 +102,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   position: relative;
   top: 0%;
@@ -140,7 +141,7 @@
   -webkit-text-stroke-color: #0b07fa;
   justify-content: center;
   align-items: center;
-  margin-bottom: 149px;
+  margin-bottom: 0;
   padding-bottom: 0;
   display: flex;
   position: relative;
@@ -335,7 +336,7 @@
 }
 
 .footer {
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: #0b07fa;
   flex-direction: column;
   justify-content: center;
@@ -350,7 +351,7 @@
   min-height: 0;
   color: #f86906;
   text-transform: uppercase;
-  margin-top: -70px;
+  margin-top: 50px;
   margin-bottom: 70px;
   margin-left: 0;
   padding-top: 0;
