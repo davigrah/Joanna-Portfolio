@@ -495,6 +495,7 @@
 .section.call-to-action {
   min-height: 70vh;
   justify-content: center;
+  padding-bottom: 70px;
   position: relative;
   transform: translate(0);
 }
