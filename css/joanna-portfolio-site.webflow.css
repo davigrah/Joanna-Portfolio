@@ -329,6 +329,12 @@
   background-attachment: fixed;
 }
 
+.job.bej {
+  background-image: url('../images/banner-ben-and-jerrys.webp');
+  background-position: 50%;
+  background-size: cover;
+}
+
 .job {
   min-height: 100vh;
   -webkit-text-fill-color: inherit;
@@ -344,7 +350,7 @@
 }
 
 .job.siene {
-  background-image: url('../images/SIENE_2023_DPZ_001.png');
+  background-image: url('../images/SIENE_2023_DPZ_001.webp');
 }
 
 .footer {
@@ -620,6 +626,10 @@
   margin-bottom: 0;
 }
 
+.job-title.bej {
+  font-size: 4vw;
+}
+
 .container {
   max-width: 1080px;
   grid-column-gap: 16px;
@@ -631,7 +641,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   display: flex;
 }
 
@@ -891,7 +901,7 @@
   max-width: 1080px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   align-content: space-around;
@@ -1125,6 +1135,18 @@
 .background-video-2 {
   width: 100%;
   height: 1005px;
+}
+
+.text-span-37 {
+  font-size: 6vw;
+}
+
+.website {
+  min-width: 100%;
+}
+
+.text-span-38, .text-span-39 {
+  color: var(--hot-pink);
 }
 
 @media screen and (min-width: 1280px) {
@@ -1375,6 +1397,10 @@
     margin-top: 0;
   }
 
+  .job-title.bej {
+    font-size: 3vw;
+  }
+
   .container {
     max-width: 0;
     min-width: 1800px;
@@ -1516,6 +1542,10 @@
 
   .image-14 {
     padding: 100px;
+  }
+
+  .text-span-37 {
+    font-size: 4.5vw;
   }
 }
 
@@ -1800,9 +1830,11 @@
   }
 
   .image-9 {
+    min-width: 100%;
+    object-fit: cover;
     margin-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .grid-3 {
@@ -2514,6 +2546,10 @@
 
 #w-node-bd35c05a-9f28-a090-c395-dc9f6cf6300d-9f1dc4a4 {
   grid-area: span 1 / span 2 / span 1 / span 2;
+}
+
+#w-node-_84188e05-d2d4-2665-45c6-ab396d3a52f9-49a7bc2f, #w-node-_58784934-a62c-4a59-f249-b12cb05ee0eb-49a7bc2f, #w-node-_68b5574a-021e-1863-2226-b8f0ddd7e6d8-49a7bc2f, #w-node-c3f91ee2-ba25-7b75-ac5a-2ad56e519853-49a7bc2f, #w-node-_8798c783-0679-c9d2-91a1-b4e13dca5f57-49a7bc2f, #w-node-e8603aa3-9e25-f518-0335-5ec8d2ffbcb4-49a7bc2f {
+  grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 @media screen and (min-width: 1920px) {
